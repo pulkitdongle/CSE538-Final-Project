@@ -1,0 +1,11 @@
+The data is not publicly available.
+This file should contain the jsons for the courses which have comments of length greater than 500 characters.
+This file is grenerated by parseJson.py
+
+Sample json
+{
+    "courseName": "NATURAL LANG PROCESS",
+    "positive": "Data cannot be relased publicly.",
+    "negative": " Data cannot be relased publicly.",
+    "courseCode": "CSE538"
+}
