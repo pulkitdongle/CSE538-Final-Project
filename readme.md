@@ -14,7 +14,8 @@ A module for summarizing text which uses clustering of skip-thoughts sentence em
  * Summarization: Each cluster represents a set of semantically similar sentences. Candidate chosen to be a sentence 		  whose vector representation is closest to the cluster center.
 
 
-
+### Evaluation:
+ * For evaluating summaries, check scoreSum. 
 # Acknowledgement
 
  * Skip-Thoughts encoder-decoder: https://github.com/ryankiros/skip-thoughts
