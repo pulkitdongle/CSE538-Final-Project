@@ -1,7 +1,7 @@
 # Text Summarization
 
 ### Introduction: 
-A module for summarizing text which uses clustering of skip-thoughts sentence embeddings. Motivation behind this is that, while deciding courses for each semester every SBU student has to go through tons of comments and reviews on Classie Evals (A portal to view comments of students and stats of the course when it was offered earlier). Reading lengthy comments for multiple courses is quite time consuming. In that case a positive and negative summary about each course would give a rough overall idea about the course while saving time.
+A module for summarizing text which uses clustering of skip-thoughts sentence embeddings. Motivation behind this is that, while deciding courses for each semester every SBU student has to go through tons of comments and reviews on Classie Evals (A Stony Brook University portal to view comments of students and stats of the course when it was offered earlier). Reading lengthy comments for multiple courses is quite time consuming. In that case a positive and negative summary about each course would give a rough overall idea about the course while saving time.
 
 ### Process: 
  * Web Scraping: The website classie eval is scraped to get all the details about all the courses.
