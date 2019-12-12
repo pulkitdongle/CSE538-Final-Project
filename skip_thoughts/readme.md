@@ -8,8 +8,8 @@ A module for summarizing text which uses clustering of skip-thoughts sentence em
  * Data Preprocessing and Cleaning: Here we strip the data and take only positive and negative reviews along with the                                     course number and ID. Then we parse these fields as JSON objects. To get better                                     results, we discard those courses whose reviews are smaller than 50 words.
  * Sentence Tokenizer: Once we have all the reviews and comments about each course, each comment is split into                        sentences using NLTK’s sentence tokenizer.
  * Skip-Thought Encoder: Used in a supervised manner using Wikipedia data to train it. The model has 2 parts:
-			*  Encoder
-		        *  Decoder
+   *  Encoder
+   *  Decoder
  * Clustering: Sentence embeddings are clustered in high dimensional vector space, with fixed no of clusters. Number 	       of clusters are desired no of sentences in summary.
  * Summarization: Each cluster represents a set of semantically similar sentences. Candidate chosen to be a sentence 		  whose vector representation is closest to the cluster center.
 
