@@ -31,16 +31,16 @@ The most used words from the feature set in each category -
 
 ![](img/mostInformativeFeatures.png)
 
+## How to run?
+ * The pretrained models are in `/pickled_algos` which were trained on positive and negative comments of students on classie-evals from different courses of Stony Brook University.
+ * Copy the summaries that you generated using skip-thoughts into `/scoreSum/summaries`
+ * In the main function of `classifier.py`, do:
+ ```
+ text = read_text("summaries\your_file_name_summ.txt")
+ sentiment_type, score = sentiment(text)
+ ```
 
 # Acknowledgement
 
- * Followed this tutorial for the code: https://pythonprogramming.net/sentiment-analysis-module-nltk-tutorial/
+ * Followed [this](https://pythonprogramming.net/sentiment-analysis-module-nltk-tutorial/) tutorial.
  * Dataset - Created our own dataset
- 
-   
-
-
-
-
-
-
